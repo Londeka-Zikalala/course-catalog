@@ -6,20 +6,40 @@
 
 
 body{
+    width:100%;
+    padding:auto;
+    margin:auto;
+    font-family: monospace;
 
 }
 
 @media only screen and (min-width:960px) {
     .container{
-
+        max-width: 85%;
     }
+nav{
+    display: flex;
 
+}
     .right-nav{
-
+        float: right;
     }
 
     .left-nav{
-
+        float:left;
     }
+.courses{
+    background-color: chocolate;
+    max-width: 500px;
+    align-items: center;
+}
+.course1,.course2,.course3{
+    width:80px;
+    background-color:beige ;
+}
+.course4,.course5,.course6{
+    width: 80px;
+    background-color: beige;
+}
 }
  
