@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+}
+
+@media only screen and (min-width:960px) {
+    .container{
+
+    }
+
+    .right-nav{
+
+    }
+
+    .left-nav{
+
+    }
+}
+ 
